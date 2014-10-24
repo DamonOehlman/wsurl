@@ -1,7 +1,7 @@
 # wsurl
 
-Given a standard `http(s)` or protocol relative url, generate an appropriate
-url for a WebSocket endpoint (`ws(s)`).
+Given a url (including protocol relative urls - i.e. `//`), generate an appropriate
+url for a WebSocket endpoint (`ws` or `wss`).
 
 
 [![NPM](https://nodei.co/npm/wsurl.png)](https://nodei.co/npm/wsurl/)
